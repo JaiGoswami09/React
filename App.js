@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const heading = React.createElement("h1", { id: "heading" }, "Hello World from React");
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
@@ -57,10 +60,10 @@ root3.render(parent2);
  * 
  */
 
-const parent3 = React.createElement("div", { id: "parent" }, [
+const parent3 = React.createElement("div", { id: "parent3" }, [
     React.createElement("div", { id: "child1" },[ 
-        React.createElement("h1", {}, "I am h1 Tag."),
-        React.createElement("h2", {}, "I am h2 Tag.")
+        React.createElement("h1", {}, "This is my Hello World from React."),
+        React.createElement("h2", {}, "This is my Hello World using React in small")
     ]),
     React.createElement("div", { id: "child2" },[ 
         React.createElement("h1", {}, "I am h1 Tag."),
