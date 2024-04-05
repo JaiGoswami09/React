@@ -1,0 +1,32 @@
+{
+  "name": "episode3",
+  "version": "1.0.0",
+  "description": "New Folder of React series Episode 3",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaiGoswami09/React.git"
+  },
+  "keywords": [
+    "react",
+    "React"
+  ],
+  "author": "Jai Goswami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaiGoswami09/React/issues"
+  },
+  "homepage": "https://github.com/JaiGoswami09/React#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}
